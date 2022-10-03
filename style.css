@@ -18,6 +18,25 @@ nav{
     color: linear-gradient(to left, blue, red);
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 70px;
+    
+    
+    top: 35%;
+    left: 20px;
+    background: linear-gradient(90deg, #ff0000, #ff00f3, #0033ff ,#ff00c4, #ff0000);
+    background-size: 400%;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+
 }
 .link:hover{
     font-weight:bold;
