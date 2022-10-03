@@ -36,12 +36,13 @@ nav{
         background-position: 400%;
     }
 }
+
 .link:hover{
-    font-weight:bold;
+    font-weight:bolder;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
-    border-radius: 30px;
-    background: linear-gradient(to left, blue, red);
+    border-radius: px;
+    
 }
 
    
@@ -63,9 +64,16 @@ img{
     height: 100%;
     flex-wrap: wrap;
 }
-div{
-    border: red;
-}
+
+  
+
+
+
+
+
+
+
+
 body{
     background-image: url();
    
@@ -82,14 +90,51 @@ h1{
     font-family: serif;
     height: 30px;
     color: aliceblue;
+
+    top: 35%;
+    left: 20px;
+    background: linear-gradient(90deg, #ff0000, #ff00f3, #0033ff ,#ff00c4, #ff0000);
+    background-size: 400%;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
 }
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
 hr.one {
+    animation: mymove 5s infinite;
     width: px;
  height: 3px;
  border: 2px solid black;
  border-radius: 30px;
+ 
  background: linear-gradient(to left, blue, red);
+ top: 35%;
+   
+    animation-fill-mode: animate 10s linear infinite;
+    -webkit-column-rule-color: (to left, blue, red) ;
+ 
 }
+
+@keyframes animate{
+    
+
+        0%{
+            background-position: 0%;
+        }
+        100%{
+            background-position: 400%;
+        }
+}
+
 h1.qabara{
     text-align:center;
     width: 300px;
@@ -105,6 +150,7 @@ a.rosm{
     width: 10px;
 }
 img.kako{
+    border: 3px goldenrod;
   position: relative;
   background-color: #000000;
   border: none;
@@ -118,7 +164,12 @@ img.kako{
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
+  -webkit-border-image: 20px;
 }
+
+
+
+
 img.kako ::after{
     content: "";
   background: #000000;
@@ -147,8 +198,9 @@ img.kako:active:after {
   }
   img.goglo{
     padding-right: 10px;
+    
   }
-
+  
 
 
     
