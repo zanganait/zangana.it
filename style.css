@@ -15,11 +15,10 @@ nav{
 .link{
     text-decoration: none;
     font-size: 35px;
-    color: linear-gradient(to left, blue, red);
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 70px;
-    
-    
+
     top: 35%;
     left: 20px;
     background: linear-gradient(90deg, #ff0000, #ff00f3, #0033ff ,#ff00c4, #ff0000);
@@ -36,7 +35,6 @@ nav{
     100%{
         background-position: 400%;
     }
-
 }
 .link:hover{
     font-weight:bold;
